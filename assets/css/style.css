@@ -1,0 +1,46 @@
+
+
+body {
+    background-image: url("/assets/Images/vintage-wallpaper.png");
+    background-repeat: repeat;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+header div {
+    background-color: #666666;
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding: 10px;
+    color: #777777;
+}
+
+
+li a {
+    margin: 10px;
+    float: right;
+  
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.intro{
+    width: 960px;
+    background-color: whitesmoke;
+    text-align: center;
+    
+   
+}
+
+
+
+
+.footer {    
+    
+    background-color: #666666;
+    text-align: center;
+    font-size: 18px;
+    border-top: 10px solid #4aaaa5;
+}
