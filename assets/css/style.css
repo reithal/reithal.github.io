@@ -7,8 +7,9 @@ body {
 }
 
 header{
-    background-color: white;
+    background-color: #ffffff;
     text-align: center;
+    position: relative;
 }
 header div {
     width: 960px;
@@ -18,11 +19,27 @@ header div {
     color: #777777;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    border-color: #dddddd;
+#myName {
+    background-color: #4aaaa5;
+    display: inline-flex;
+    flex-direction: row;
+    padding :10px;
+    flex: row-reverse;
+    color: #ffffff;
+    width: 10%;
+    height: 100%;
 }
+
+nav {
+    display: inline-block;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+
+}
+
 #middle a {
     
     border-left: thin  solid #777777;
@@ -34,20 +51,18 @@ header div {
   
 }
 
+
 hr {
     padding: 1px solid;
 
 }
 
-ul li {
-    list-style: none;
-    display: inline-block;
-
-}
-
 .intro{
+    width: 80%;
+    margin: 0 auto;
+    border-color: #dddddd;
     width: 960px;
-    background-color: whitesmoke;
+    background-color: #ffffff;
     margin: 0 auto;
 }
 
