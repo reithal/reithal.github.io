@@ -1,5 +1,6 @@
-body {
+body  div {
     background-image: url("assets/images/vintage-wallpaper.png");
+    background-size: cover;
     background-repeat: repeat;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     color: #666666;
