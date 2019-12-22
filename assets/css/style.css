@@ -1,16 +1,27 @@
 body {
-    background-image: url("/assets/images/vintage-wallpaper.png");
+    background-image: url("assets/images/vintage-wallpaper.png");
     background-repeat: repeat;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    background-color: #ffffff;
+    color: #666666;
+ }
+
+
+.navbar-brand {
+    margin-left: 70px;
+    padding: 10px   20px;
+    background-color: #4aaaa5;
+    color: #ffffff!important;
 }
 
-header{
+.navbar {
+    border-bottom: 1px solid #777777;
     background-color: #ffffff;
     text-align: center;
     position: relative;
+    padding-bottom: 0px;
 }
+
+
 header div {
     width: 960px;
     display: inline-block;
@@ -34,11 +45,6 @@ nav {
     display: inline-block;
 }
 
-nav ul li {
-    list-style: none;
-    display: inline-block;
-
-}
 
 #middle a {
     
@@ -70,11 +76,23 @@ hr {
     color: #4aaaa5;
     font-size: 24px;
 }
+button {
+    background-color: #4aaaa5!important;
+    border-color: #4aaaa5;
+    color: #ffffff;
+    
+}
+
 
 .footer {    
     
     background-color: #666666;
+    color: #777777;
     text-align: center;
     font-size: 18px;
     border-top: 10px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
