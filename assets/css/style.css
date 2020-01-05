@@ -1,91 +1,87 @@
 body {
-    margin: 0;
-    background-image: url(../images/vintage-wallpaper.png);
-    background-repeat: repeat;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: #666666;
-    line-height: 1.5em;
-    margin: 0px;
-    overflow: hidden;
-    text-align: center;
-  }
-  
-  .navbar {
-    margin-top: -10px;
-    margin: -10px;
-    border-bottom: 1px solid #777777;
-    background-color: #ffffff;
-    position: relative;
-    padding-bottom: 0px;
-  }
-  
-  .navbar ul {
-    list-style: none;
-    display: flexbox;
-  }
-  
-  .navbar-brand {
-    margin-left: 70px;
-    padding: 10px 20px;
-    background-color: #4aaaa5;
-    color: #fff!important;
-  }
-  
-  
-  .main-header {
-    width: 100%;
-    margin: 0;
-    font-family: "Georgia", Times, "Times New Roman", serif;
-    color: #777777;
-  }
-  
-  .heading h3 {
-    padding-top: 10px;
-    color: #4aaaa5;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: left;
-  }
-  
-  .mainContent {
-    margin-top: 20px;
-    background-color: #ffffff;
-  }
-  
-  
-  hr {
-    border: 1px solid #777777;
-  }
-  
-  .intro p {
-    text-align: justify;
-  }
-  
-  .contact-form {
-    text-align: left;
-  }
-  button {
-    background-color: #4aaaa5 !important;
-    border-color: #4aaaa5;
-    color: #ffffff;
-    margin-bottom: 10px;
-  }
-  
-  img {
-    width: 150px;
-    padding: 10px;
-  }
-  
-  .footer {
-    background-color: #666666;
-    color: #777777;
-    text-align: center;
-    font-size: 18px;
-    border-top: 10px solid #4aaaa5;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  
+  margin: 0;
+  background-image: url("../images/vintage-wallpaper.png");
+  background-repeat: repeat;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #666666;
+  line-height: 1.5em;
+  margin: 0px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.navbar {
+  margin-top: -10px;
+  margin: -10px;
+  border-bottom: 1px solid #777777;
+  background-color: #ffffff;
+  position: relative;
+  padding-bottom: 0px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flexbox;
+}
+
+.navbar-brand {
+  margin-left: 70px;
+  padding: 10px 20px;
+  background-color: #4aaaa5;
+  color: #fff !important;
+}
+
+.main-header {
+  width: 100%;
+  margin: 0;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  color: #777777;
+}
+
+.heading h3 {
+  padding-top: 10px;
+  color: #4aaaa5;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.mainContent {
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+
+hr {
+  border: 1px solid #777777;
+}
+
+.intro p {
+  text-align: justify;
+}
+
+.contact-form {
+  text-align: left;
+}
+button {
+  background-color: #4aaaa5 !important;
+  border-color: #4aaaa5;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 150px;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #666666;
+  color: #777777;
+  text-align: center;
+  font-size: 18px;
+  border-top: 10px solid #4aaaa5;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
