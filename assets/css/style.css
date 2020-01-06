@@ -49,19 +49,18 @@ body {
 .mainContent {
   margin-top: 20px;
   background-color: #ffffff;
+  overflow: auto;
 }
 
 hr {
   border: 1px solid #777777;
 }
 
-.intro p {
-  text-align: justify;
-}
 
 .contact-form {
   text-align: left;
 }
+
 button {
   background-color: #4aaaa5 !important;
   border-color: #4aaaa5;
