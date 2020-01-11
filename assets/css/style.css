@@ -84,3 +84,10 @@ img {
   bottom: 0;
   width: 100%;
 }
+
+@media only screen and (max-width: 991px) {
+  #aboutImage {
+    width: 120px;
+  }
+}
+
