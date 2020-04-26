@@ -1,82 +1,91 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-
-
-    <!-- Bootstrap CSS  -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"/>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>About Carlos Mazon</title>
-  </head>
-
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <span class="navbar-brand mb-0 h1" href="#">Carlos Mazon</span>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-8 mainContent">
-            <div class="row heading">
-              <div class="col">
-                <h3>About Me</h3>
-                <hr />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-3 ml-auto">
-                <img id="aboutImage" src="assets/images/meandk.jpg" alt="Picture of Me"/>
-              </div>
-              <div id="intro" class="col-md-9">
-                <p class="text-justify">
-                  Carlos Mazon is a System's Web Analyst for Amerant Bank, N.A.
-                  and decided to learn Full Stack Development for further
-                  enrichment and break out to contracted collaborations.
-                </p>
-                <br />
-                <p class="text-justify">
-                  <b>Fun Fact:</b> Became a grandfather at 37 and I love
-                  spoiling them. I hope to teach them how to code one day.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-2"></div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Landing Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <section class="showcase">
+    <div class="video-container">
+      <video src="/assets/images/hd1484.mov" autoplay muted loop></video>
+    </div>
+    <div class="content">
+      <h1>Designing for you</h1>
+      <h3>Carlos Mazon</h3>
+        <h5>Web Developer</h5>
+      <a href="#about" class="btn">Read More</a>
+      <a href="#projects" class="btn">Projects</a>
+    </div>
+  </section>
+  <section id="projects">
+    <h1>Projects</h1>
+    <div class="projects">
+      <div class="card">
+        <a href="https://reithal.github.io/PasswordGenerator/" target="_blank" alt="Demo Site" data-toggle = "tooltip" title = "Demo Site on GitHub">
+        <img src="./assets/images/PWGenerator.png" alt="PasswordGenerator" style="width:100%">
+        </a>
+        <div class="container">
+          <a href="https://github.com/reithal/PasswordGenerator" target="_blank" alt="Repo Site" data-toggle = "tooltip" title = "Repository on GitHub">Password Generator</a>
         </div>
       </div>
-    </section>
-    <footer class="footer">
-      <p>Copyright &copy; 2019, Carlos Mazon</p>
-    </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+      <div class="card">
+        <a href="https://reithal.github.io/JavaScript-Quiz/" alt="Demo Site" target="_blank" alt="Demo Site" data-toggle = "tooltip" title = "Demo Site on GitHub">
+          <img src="assets/images/JSQuiz.png" alt="JavaScript-Quiz" style="width:100%"/></a>
+        <div class="container">
+        <a href="https://github.com/Reithal/JavaScript-Quiz/" alt="Repo Site" target="_blank" data-toggle = "tooltip" title = "Repository on GitHub">JavaScript Quiz</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://reithal.github.io/WeatherDashboard/" target="_blank" alt="Demo Site" data-toggle = "tooltip" title = "Demo Site on GitHub"><img src="assets/images/WeatherDashboard.png" alt="WeatherDashboard" style="width:100%"/></a>
+        <br>
+        <div class="container">
+        <a href="https://github.com/reithal/WeatherDashboard" target="_blank" alt="Repo Site" data-toggle = "tooltip" title = "Repository on GitHub">Weather Dashboard</a>
+      </div>
+      </div>
+      <div class="card">
+        <a href="https://cronint11.github.io/GroupTOME" target="_blank" alt="Demo Site" data-toggle = "tooltip" title = "Demo Site on GitHub">
+          <img src="./assets/images/IPAAnon.png" alt="IPA Anonymous" style="width:100%">
+        </a>
+        <div class="container">
+          <a href="https://github.com/cronint11/GroupTOME" target="_blank" alt="Repo Site" data-toggle = "tooltip" title = "Repository on GitHub">IPA Anonymous</a>
+        </div>
+      </div>
+      <div class="card">
+        <a href="https://local-one-off.herokuapp.com" target="_blank" alt="Demo Site" data-toggle = "tooltip" title = "Demo Site on GitHub">
+          <img src="./assets/images/LocalOneOff.png" alt="Local One Off" style="width:100%">
+        </a>
+        <div class="container">
+          <a href="https://reithal.github.io/ProjectCAKE" target="_blank" alt="Repo Site" data-toggle = "tooltip" title = "Repository on GitHub">Local One Off</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <h1>About</h1>
+    <p>Carlos Mazon is a System's Web Analyst for Amerant Bank, N.A.
+      and decided to learn Full Stack Development for further
+      enrichment and break out to contracted collaborations.
+    </p>
+    <h2>Follow me on Social Media</h2>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/carlosmazon/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+      <a href="https://github.com/reithal" target="_blank"><i class="fab fa-github fa-3x">  </i></a>
+    </div>
+  </section>
+</body>
 </html>
+
+<!-- <div class="row">
+  <div class="col-md-2"></div>
+ 
+  </div>
+  <div class="col-md-4">
+      <a href="https://reithal.github.io/WeatherDashboard/" target="_blank" alt="Demo Site" data-toggle = "tooltip" title = "Demo Site on GitHub"><img src="assets/images/WeatherDashboard.png" /></a>
+      <br>
+      <a href="https://github.com/reithal/WeatherDashboard" target="_blank" alt="Repo Site" data-toggle = "tooltip" title = "Repository on GitHub"><p>Weather Dashboard</p></a>
+  </div>
+  <div class="col-md-2"></div>
+</div> -->
